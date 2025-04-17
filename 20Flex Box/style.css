@@ -1,0 +1,33 @@
+.container{
+    background-color: beige;
+    border: 2px solid black;
+    display:flex;
+height:300px;
+justify-content: center;
+justify-content: space-around;
+align-items: center;
+}
+
+
+ 
+.box{
+    width: 10rem;
+    height: 10rem;
+    border: 2px solid black;
+    flex-grow: 3;
+
+}
+
+#b1{
+    background-color: aqua;
+    /* flex-shrink: 4; */
+}
+#b2{
+    background-color: rgb(174, 38, 208);
+}
+#b3{
+    background-color: rgb(230, 110, 18);
+}
+#b4{
+    background-color: rgb(28, 230, 13);
+}

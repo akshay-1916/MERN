@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.ma{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    height: 700px;
+
+
+}
+
+.con{
+    background-color: black;
+    height: 600px;
+    width: 350px;
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.not{
+display: flex;
+gap: 10px;
+margin: 10px;
+
+}
+.three{
+background-color: green;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 30px;
+height: 30px;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.all{
+    background-color: green;
+    border-radius: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+
+.pl{
+    display: flex;
+   
+    background-color: #000000;
+    align-items: center;
+    justify-content: space-around;
+   
+
+}
+
+
+
+.box{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: rgb(22, 21, 21);
+    height: 60px;
+    width: 160px;
+    border: 1px solid rgb(0, 0, 0);
+    gap: 17px;
+    border-radius: 7%;
+}   
+/* 
+.d2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+} */
+
+.pim{
+    height: 55px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+
+}
+
+h5{
+    color: white;
+    /* margin-right: 10px; */
+}
+
+h2{
+    padding: 2px;
+    color: white;
+    padding-left: 10px;
+}
+
+h6{
+    padding: 2px;
+    color: rgb(151, 145, 145);
+    padding-left: 10px;
+}
+
+h3{
+    padding: 2px;
+    color: white;
+    padding-left: 10px;
+}
+
+h1{
+    padding-top: 4px;
+    padding-left: 10px;
+    font-size: 30px;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.impc{
+    display: flex;
+   
+}
+
+.iml{
+    padding: 17px;
+    height: 140px;
+    width: 140px;
+}
+
+
+
+.lbox{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: rgb(22, 21, 21);
+    height: 45px;
+    width: 349px;
+    border: 1px solid rgb(0, 0, 0);
+    gap: 17px;
+    border-radius: 7%;
+}   
+
+
+.lpim{
+    height: 40px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+
+}

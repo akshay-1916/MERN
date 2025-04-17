@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    justify-content: center;
+   align-content: center;
+}
+
+
+.cont{
+    margin-top: 40%;
+    display: flex;
+    width:400px;
+    flex-wrap: wrap;
+    background-color: antiquewhite;
+    justify-content:center;
+    align-items: center;
+    border: 2px solid ;
+    box-shadow: 10px 15px 20px 5px red;
+    
+}
+
+img{
+    width: 50px;
+    justify-items: center;
+}
+h1{
+    text-shadow: 1px 2px 4px red;
+}

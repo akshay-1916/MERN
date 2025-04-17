@@ -1,0 +1,35 @@
+.con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 200px;
+}
+
+
+.box
+{
+ width: 200px;
+ height: 200px;
+display: flex;
+justify-content: center;
+align-items: center;
+ 
+background-color: yellowgreen; 
+transition:  1s ease-in-out 0s;
+/* transform: 1s; */
+}
+
+.box:hover{
+    background-color: aqua;
+    width: 250px;
+    height: 250px;
+    transform: scale(0.5);
+    transform: rotate(40deg);
+    transform: skew(30deg);
+    transform: translate(300px);
+}
+
+
+
+
+

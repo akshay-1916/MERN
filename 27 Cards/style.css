@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.con{
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+    background-image: linear-gradient(135deg, #BBC6EC ,#9599E2 100%);
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    align-items: center;
+    
+}
+
+.card{
+    width: 360px;
+    height: 600px;
+    border-radius: 30px;
+    background-color: wheat;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.card img{
+    height: 300px;
+    width: 300px;
+    border-radius: 30px;
+    margin: 20px;
+}
+
+.card h2{
+    padding: 10px;
+}
+
+.card h4{
+    padding: 10px;
+    margin-bottom: 2px;
+}
+
+
+
+
+
+
+
+

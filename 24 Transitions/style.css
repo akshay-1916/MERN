@@ -1,0 +1,18 @@
+.box
+{
+ width: 200px;
+ height: 200px;
+display: flex;
+justify-content: center;
+align-items: center;
+ 
+background-color: yellowgreen; 
+transition:  1s ease-in-out 1s;
+}
+
+.box:hover{
+    background-color: aqua;
+    width: 250px;
+    height: 250px;
+
+}

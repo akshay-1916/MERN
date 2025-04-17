@@ -1,0 +1,107 @@
+.con{
+    width:800px;
+    height: 1000px;
+    background-color: aqua;
+    border: 2px solid black;
+}
+
+
+
+
+.a{
+    background-color: red;
+    width: 200px;
+    height: 100px;
+    margin: 1px;
+    animation-name: rightmo;
+    position: relative;
+    animation-duration: 5s;
+    animation-iteration-count: 19;
+    animation-delay: 1s;
+    animation-timing-function:calc();
+    animation-direction:alternate;
+
+}
+
+@keyframes rightmo {
+    from{
+        top: 0;
+        left: 0;
+    }
+
+    to{
+        top: 0;
+        left: 600px;
+    }
+    
+}
+
+.circle{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    margin: 200px;
+    animation-name: lmo;
+    position: relative;
+    animation-duration: 2s;
+    border-radius: 50%;
+    animation-iteration-count: infinite;
+    /* animation-delay: 1s; */
+    animation-timing-function:calc();
+    animation-direction:alternate;
+
+}
+
+@keyframes lmo {
+    0%{
+        top: 0%;
+        left: 5%;
+    }
+
+
+    25%{
+        top:5%;
+        left:60%
+
+    }
+
+    50%{
+        top:30%;
+        left:30%;
+    }
+
+    100%{
+        top: 20%;
+        left: 50%;
+    }
+    
+}
+
+.b{
+    background-color: red;
+    width: 200px;
+    height: 100px;
+    margin: 200px;
+    animation-name: ltmo;
+    position: relative;
+    margin-left: 0px;
+    animation-duration: 4s;
+    animation-iteration-count: 19;
+    /* animation-delay: 1s; */
+    animation-timing-function:calc();
+    animation-direction:alternate;
+
+}
+
+@keyframes ltmo {
+    from{
+        top: 0;
+        left: 0;
+    }
+
+    to{
+        top: 0;
+        left: 600px;
+    }
+    
+}

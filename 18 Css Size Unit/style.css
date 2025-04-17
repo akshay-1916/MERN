@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.a{
+    background-color: yellowgreen;
+   width: 30%;
+}
+
+.b{
+    background-color: aqua;
+    width: 50%;
+    font-size: 2em;
+}
+
+
+/* 1/96 inch (0.26mm)=1 px */
+
+
+
+
+

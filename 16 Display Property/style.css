@@ -1,0 +1,32 @@
+#a{
+    background-color: yellowgreen;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    padding: 30px;
+    border: solid aqua 5px;
+}
+
+#b{
+    background-color: aqua;
+    color:red ;
+    font-weight: 122;
+    font-size: 2rem;
+    border-color: red;
+    border-style: dotted;
+    border-top-left-radius: 20px;
+    margin-top: 50px;
+}
+
+h1{
+    /* border-style: groove;
+    border-color: aqua;
+    border-width: 11; */
+    border: solid brown 5px;
+    border-radius: 10px;
+}
+span{
+    background-color: red;
+}
+
+
+
